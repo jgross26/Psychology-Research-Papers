@@ -1,0 +1,114 @@
+\documentclass[stu,12pt,floatsintext,colorlinks]{apa7} 
+\usepackage[american]{babel}
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{sources.bib} 
+\usepackage[T1]{fontenc} 
+\usepackage{mathptmx}
+\usepackage{graphicx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{The Relation of Perceived Stress on Sleep Quality}
+\shorttitle{Stress and Sleep Quality}
+\author{Jack Gross}
+\duedate{April 25, 2024}
+\course{PSYC 203L}
+\affiliation{WVU}
+\professor{Haleh Amenieh} 
+
+\begin{document}
+\maketitle 
+
+\section{Introduction}
+College students are well-known for their poor sleep schedules. Most college students are also well-known for their high levels of stress. In \masktextcite{John-Henderson}'s study, the participants consisted of a group of 17 to 19 year-old students within their first year of college. Though it was a study based on Childhood Maltreatment's mediating impact on stress levels during life transitions, the data was significant. It showed that those with higher levels of childhood maltreatment frequently also experienced high levels of stress during these transitions. 
+
+Similar to \masktextcite{Galambos}'s study, they found that a stressful transition within the first year of university negatively impacted the sleep quality of the participants, a group of 187 first-year university students from Canada. So the influence of stress on sleep quality has proven significant, but considering the results of \masktextcite{Alotaibi}'s study, such variables also influence a student's academics. With a sample of medical students in their preclinical phase, they found that poor sleep quality was significant in those with high levels of stress.
+
+Though done in a different nation, \masktextcite{Deng}'s study also showed this influence within Chinese adolescents' sleep quality. They found, however, that a higher quality of peer relationships can play a mediating factor in the levels of stress within these adolescents. As for \masktextcite{Blaxton}, they found that a lower level of sleep quality frequently negatively mediated a higher level of stress within participants, with the sample being a longitudinal study on two cohorts from the Notre Dame Study of Health \& Wellbeing. 
+
+Whereas these studies looked at the mediating factor between that of stress and sleep quality, \masktextcite{Dongol} observed the impact of COVID-19 on stress, sleep quality, and insomnia among students in Egypt during their quarantine period. Their results were incredibly significant, showing that, of 2474 participants, eighty percent were identified as generally poor sleepers by the PSQI (see Appendix \ref{Appendix A}). 
+
+The association shown within these papers, as well as our first-hand experiences with Stress and Sleep Quality is what led us to choose these factors for our study.
+%complete for now
+
+\subsection{Overview of Current Study}
+Our research project will be studying the relation between perceived level of stress and the quality of sleep that fellow WVU students report. We are using ordinal questions for most of our questions, and reverse-coding a few to ensure we get correct data. The previous findings that support our hypothesis is strong, as nearly every research article referenced found a strong association between stress, sleep quality, and even academic performance. A self-report survey will be sent out to students of PSYC203, and that will be the data we use for our discussion.
+%complete for now
+
+\section{Methods}
+\subsection{Participants}
+ By the end of data collection, we had 87 participants complete our self-report survey. The gender breakdown was 68 female, 15 male, and 3 self-identify. \textit{One person chose not to disclose this information.} The age range of participants was between 18 to 24 years of age, with the mean being 19.47 (SD = 1.05). The class distribution was 19 Freshman, 48 Sophomores, 18 Juniors, and 2 Seniors. Our participants were recruited through a class-assigned survey. In this survey, every question set made by groups in the 203 Lab were asked to participants. Thus, our participants were both self-report, and also a convenience sample of those within the Psychology 203 Lab lecture for the Spring 2024 semester.
+ %complete for now
+ 
+\subsection{Materials}
+ Our survey included questions relating to Stress, Sleep quality and quantity, as well as two reverse-coded questions for validity. By the end of our design, we had 5 questions in our survey (see Appendix \ref{Appendix B}). 
+ 
+ One Sleep Quality example question from our survey is: "How often do you wake up in the middle of the night?" with a five-part Likert scale response of never to frequently (see Appendix \ref{Appendix C}). Our questions were all related to sleep quality, so we could gain a general understanding of our participants' perceived sleep quality.
+
+ The Perceived Stress Scale is a classic assessment, developed in 1983 and remains a popular choice for Stress surveys even today. There are ten questions on the survey, with four reverse-scaled questions. The questions themselves were answered with a five-part Likert scale, ranging from 0 to 4 considering frequency of the emotions. One example question from the PSS is "In the last month, how often have you found that you could not cope with all the things that you had to do?" (see Appendix \ref{Appendix D}). The scale ranges from 0 to 40, with three intervals of scores to determine whether a person has Low, Moderate, or High perceived stress.
+%complete for now
+
+\subsection{Design and Procedure}
+ By nature of the class, our study ended up being a cross-sectional research design. Our information was collected through an online survey, which was given via eCampus to students enrolled in the Psychology 203 Lab. The survey sent out to participants did include multiple other surveys by the research class, which led to the large value of average time spent on the survey itself. Debriefing was unnecessary due to a lack of deception in a self-report study. \textit{The average time spent completing the survey was 271.15 minutes (SD = 45239.03).} 
+%complete for now
+
+\subsection{Data Analysis}
+Within our survey questions (see Appendix \ref{Appendix B}), we also took the data from the Perceived Sleep Scale, to compare the finals responses of our participants (see Figure \ref{Sleep Score}). Our data ended up being quantitative, since we used a Likert Scale for participant responses. The only changes we made to the data was deletion of invalid responses, and the reverse-coding of two survey questions for validity purposes. We used JASP software to find Descriptive Statistics of our results, as well as One-Sample T-Tests to determine the significance of our results overall. 
+%getting reviewed!!
+
+\section{Results}
+Higher levels of the Perceived Stress Score carry a negative indication to them, while higher levels of the Total Sleep Score have a positive indication. Within our study, it seems that there is a strong relation between a high PSS and a low Sleep Score (see Figure \ref{stress;sleep}).
+
+In the general population, participants have a mean Perceived Stress score of 23.31 points. A sample of 87 students recorded a mean score of 22.02 points (SD = 5.58). A one-sample t-test indicated that the Perceived Stress Score of the surveyed 87 students was similar to that of the general population, t(86) = -2.15, p =  0.03, d = -0.23, 95\% CI [-0.44, -0.22].
+
+According to a Pearson correlation analysis, there was a significant linear relationship between Perceived Stress Score and Total Sleep Calculations, r(87) = .0.60, p < .001, 95\% CI [0.45, 0.72]. That is, students with higher levels of Perceived Stress reported lower total Sleep Scores.
+%getting reviewed!!
+
+\section{Discussion}
+Based on the information we collected within this study, there seems to be a strong connection between a high perceived stress score and a poor perceived quality of sleep. The average Perceived Sleep Score or our participants varied from 12 to 18 points total, which can be stated as a moderate sleep score. These participants also frequently reported a high perceived stress score. This relates back to our literature found in which a poor quality of sleep would lead to a more stressful experience within participants. This also suggests that there should be more research done into the impact of sleep quality on that of daily life within college students. If there was proper effort put into reducing the stress caused on these parties, I believe the sleep quality levels would follow closely behind in becoming much better for these college participants.
+%graded as a draft for final paper
+
+
+\newpage
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{sleep score.png}
+    \caption{Total Sleep Score Variation of Participants}
+    \label{Sleep Score}
+\end{figure}
+%used in Data Analysis
+
+\vspace{1.5in}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Stress:Sleep Coorelations.png}
+    \caption{Correlations between Perceived Stress Level and Total Sleep Score}
+    \label{stress;sleep}
+\end{figure}
+%used in Results
+
+\newpage
+\printbibliography
+
+\appendix
+\section{PSQI}
+\label{Appendix A}
+ The Pittsburgh Sleep Quality Index, commonly known as the PSQI, is a self-report survey to measure sleep quality and disturbances over a one-month period. There are nine questions in total, with seven components for scoring. Upon scoring, the participant is meant to compare their Total PSQI score to the Global PSQI score as a reference point.
+ 
+\section{All Perceived Sleep Survey Questions}
+\label{Appendix B}
+How often do you wake up in the middle of the night? (never-frequently)., I often feel fatigued during the day (disagree to agree)., I am able to get to sleep within 30 minutes (disagree to agree)., I feel energized during my day (disagree to agree)., How would you rate your quality of sleep during the week? (bad-good). 
+
+\section{ Perceived Sleep Survey Reference Question}
+\label{Appendix C}
+How often do you wake up in the middle of the night? (1-never 2-occasionally 3-often 4-fairly often 5-frequently)
+
+\section{Perceived Stress Scale Reference Question}
+\label{Appendix D}
+ In the last month, how often have you found that you could not cope with all the things that you had to do? (0-never 1-almost never 2-sometimes 3-fairly often 4-very often) 
+
+\end{document}
